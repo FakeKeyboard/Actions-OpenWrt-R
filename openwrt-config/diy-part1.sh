@@ -9,5 +9,5 @@
 # sed -i "/xray/d" "feeds.conf.default"
 
 echo "src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-echo "https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main" >> "feeds.conf.default"
+echo "src-git https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main" >> "feeds.conf.default"
 # echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
